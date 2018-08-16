@@ -45,7 +45,7 @@ class App extends Component {
           <section className="cow-say">
             <h2>The Meme Generator</h2>
             <p ref={node => this.image = node}>
-              <MemeSay topcontent={topcontent}  bottomcontent={bottomcontent} url={url}/>
+              <MemeSay topcontent={topcontent} bottomcontent={bottomcontent} url={url}/>
             </p>
             <p>
               <button onClick={this.handleExport}>Export</button>
